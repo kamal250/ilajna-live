@@ -58,6 +58,10 @@ body.dark-mode nav {
 	background: var(--transblack);
 }
 
+@view-transition {
+	navigation: auto;
+}
+
 .tag-title {
 	font-weight: 400;
 	color: var(--black);
