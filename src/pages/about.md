@@ -1,9 +1,21 @@
-Welcome to this blog template by [cassidoo](https://cassidoo.co)!
+I'm <b>Kamal Joshi</b>, a Project Lead with <b>15+ years of experience</b> building, architecting, and delivering modern web platforms. My career has been shaped by solving complex technical challenges, leading high-performing teams, and driving projects from concept to successful delivery.
 
-It's using Astro and TinaCMS. You can [clone it on GitHub](https://github.com/cassidoo/blahg) to use it for yourself, and see how it works! I would _love_ if you told me when you do use it, I love seeing variations on it!
+My recent work includes leading multiple phases of a Transportation Management System, driving significant performance improvements and broader client adoption. Previously, I delivered multiple IIoT-focused solutions, including real-time communication layers, offline data storage, custom device calibration, and multi-build deployments—projects that strengthened my abilities in system architecture, cross-functional collaboration, and mentoring engineering teams.
 
-The tags at the bottom of the page are dynamically generated. The more tags you use, the more tags are added to the list! Posts are simple markdown files.
+💡 What I Believe In
 
-You should also check out [my newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). Or don't. Follow your dreams.
+- Building solutions that simplify complex workflows
+- Leading with clarity, empathy, and technical depth
+- Empowering teams through collaboration and knowledge sharing
+- Continuously learning and refining how projects are shaped and executed
 
-Enjoy!
+🚀 What I’m Working On
+
+- Driving enhancements and new phases of a large-scale Transportation Management System
+- Strengthening project management fundamentals through PMP preparation
+- Exploring modern JavaScript and cloud-based integrations to scale enterprise systems
+
+✅ Why Ilajna?
+
+- This domain name is <b>dedicated to my wife - Anjali</b>.
+- She is <b>my opposite — my completion</b>.
