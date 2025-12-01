@@ -12,6 +12,16 @@ Creating a personal space on the internet doesn’t have to be expensive. In fac
 
 Yes, that's right — a fully functional website with DNS and hosting handled, accessible publicly, and managed with ease. Here’s exactly how I did it.
 
+### 💡 Step 1: Buying the Domain (Cost: ₹\<300 Only)
+
+I purchased a domain from CrazyDomains (Why CrazyDomains? I purchased my domains in the past from them) without opting for any extra add-ons or bundled services.
+
+The goal was simple: keep costs low and take full control myself later through Cloudflare. 
+
+Domain price: Under ₹300 — the only money spent in this entire setup
+
+![](</assets/1. domain under 300INR.png>)
+
 ### ⚙ Step 2: Pointing the Domain to Cloudflare
 
 Next, I created a free account on Cloudflare and added my domain there. Cloudflare provided me with two Name Servers which I updated in CrazyDomains so Cloudflare could manage my DNS easily.
@@ -33,10 +43,10 @@ I needed a simple, reliable, fast hosting platform — and Netlify was the perfe
 
 Steps I followed:
 
-1. Pushed my static site to a GitHub repository. 
-2. Connected the repo to Netlify for auto-deploy on every commit. 
-3. Under Netlify → Your Project → Domain Management, I added my custom domain. 
-4. Netlify provided a TXT DNS record for verification. 
+1. Pushed my static site to a GitHub repository.
+2. Connected the repo to Netlify for auto-deploy on every commit.
+3. Under Netlify → Your Project → Domain Management, I added my custom domain.
+4. Netlify provided a TXT DNS record for verification.
 5. I added that TXT record inside Cloudflare and verification happened almost instantly.
 
 ![](</assets/3. TXT Records.png>)
