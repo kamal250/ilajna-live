@@ -35,6 +35,7 @@ Why Cloudflare?
 ![](</assets/2. Name Servers.png>)
 
 At this point, my domain was functional — DNS sorted ✔
+
 Now it was time to host my site.
 
 ### 🚀 Step 3: Hosting the Site Using Netlify (Free)
