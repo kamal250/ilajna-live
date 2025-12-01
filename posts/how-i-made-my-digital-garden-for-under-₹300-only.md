@@ -16,7 +16,7 @@ Yes, that's right — a fully functional website with DNS and hosting handled, a
 
 I purchased a domain from CrazyDomains (Why CrazyDomains? I purchased my domains in the past from them) without opting for any extra add-ons or bundled services.
 
-The goal was simple: keep costs low and take full control myself later through Cloudflare. 
+The goal was simple: keep costs low and take full control myself later through Cloudflare.
 
 Domain price: Under ₹300 — the only money spent in this entire setup
 
@@ -28,9 +28,9 @@ Next, I created a free account on Cloudflare and added my domain there. Cloudfla
 
 Why Cloudflare?
 
-✔ Super fast DNS propagation
-✔ Easy DNS record management
-✔ No extra cost
+* Super fast DNS propagation
+* Easy DNS record management
+* No extra cost
 
 ![](</assets/2. Name Servers.png>)
 
