@@ -56,7 +56,7 @@ Steps I followed:
 
 With domain ownership verified, only one final step remained — pointing the domain to Netlify.
 
-I added a CNAME record in Cloudflare, and Netlify automatically issued an SSL certificate and handled redirects on its own.
+I added a CNAME record in Cloudflare, and Netlify automatically handled rests on its own.
 
 Result:
 🔹 digitalgarden.ilajna.live → Works
