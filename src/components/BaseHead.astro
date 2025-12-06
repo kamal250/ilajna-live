@@ -2,9 +2,17 @@
 import "../style/fonts.css";
 import "../style/global.css";
 
-import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import { SITE_TITLE } from "../config";
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
 
 const { title, description, image = "/home-blog-card.png" } = Astro.props;
+const googleTag = import.meta.env.GOOGLETAG;
 ---
 
 <head>
@@ -44,4 +52,13 @@ const { title, description, image = "/home-blog-card.png" } = Astro.props;
 
 	<!-- Sitemap -->
 	<link rel="sitemap" href="/sitemap-index.xml" />
+	<!-- Google tag (gtag.js) -->
+	<script async src={`https://www.googletagmanager.com/gtag/js?id=${googleTag}`}></script>
+	<script is:inline>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', googleTag);
+	</script>
 </head>
