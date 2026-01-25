@@ -2,7 +2,8 @@
 title: My thoughts on PMI Essentials MORE Maximizing Project Success
 slug: my-thoughts-on-pmi-essentials-more-maximizing-project-success
 description: Sharing my thoughts on PMI course
-tags: []
+tags:
+  - learning
 added: 2026-01-25T22:13:14.686Z
 ---
 
@@ -20,7 +21,7 @@ The course has their own definition (I am referring their written statement as d
 
 Here is my version of understanding on them:
 
-M - Understand stakeholder & influence how value is perceived 
+M - Understand stakeholder & influence how value is perceived
 
 O - I am responsible
 
