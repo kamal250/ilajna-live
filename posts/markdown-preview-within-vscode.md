@@ -4,7 +4,6 @@ slug: markdown-preview-within-vscode
 description: '''Command + Shift + V'' - shortcode to preview markdown file'
 tags:
   - learning
-  - advice
 added: 2026-02-18T12:26:51.682Z
 ---
 
