@@ -54,11 +54,10 @@ const googleTag = import.meta.env.GOOGLETAG;
 	<link rel="sitemap" href="/sitemap-index.xml" />
 	<!-- Google tag (gtag.js) -->
 	<script async src={`https://www.googletagmanager.com/gtag/js?id=${googleTag}`}></script>
-	<script is:inline>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', googleTag);
-	</script>
+	<script is:inline set:html={`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${googleTag}');
+`}></script>
 </head>
